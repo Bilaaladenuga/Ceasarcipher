@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Bidmaj Caesar Cipher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1> Bidmaj Caesar Cipher</h1>
+    <label for="text">Enter text:</label>
+    <textarea id="text" rows="4" cols="50"></textarea>
+    <label for="shift">Enter shift value:</label>
+    <input type="number" id="shift" min="1" max="25">
+    <button onclick="encrypt()">Encrypt</button>
+    <button onclick="decrypt()">Decrypt</button>
+    <label for="result">Result:</label>
+    <textarea id="result" rows="4" cols="50" readonly></textarea>
+  </div>
+  <script src="caesarCipher.js"></script>
+</body>
+</html>
